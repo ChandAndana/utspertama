@@ -1,16 +1,19 @@
+import pengguna.Mhs;
+
 class Main {
-    public static void Main(String[] args) {
-    Mhs mhs = new(username:"ini_username", password:"ini_password");
+    public static void main(String[] args) {
 
-        Mhs = new Mhs ();
-        mhs.setNama(nama:"Navinda Bram");
-        mhs.setNim(nim:"A123");
-        mhs.setSmt(smt:3);
+        Mhs mhs = new Mhs("Ini_Username", "Ini_Password", "Chandra Adhikara Andana", "G.111.19.0008", 8);
 
-        System.out.println("Nama Mhs: " + mhs.getNama());
-        System.out.println("Nim Mhs: " + mhs.getNim());
-        System.out.println("Smt Mhs: " + mhs.getSmt());
-        System.out.println("Username: " + mhs.getUsername());
-        System.out.println("Password: " + mhs.getPassword());
+        // mhs.setNama("Mohamad Sigit Riyanto");
+        // mhs.setNim("G.111.19.0011");
+        // mhs.setSmt(8);
+
+        System.out.println("Nama Mhs : " + mhs.getNama());
+        System.out.println("Nim Mhs : " + mhs.getNim());
+        System.out.println("Smt Mhs : " + mhs.getSmt());
+        System.out.println("Username : " + mhs.getUsername());
+        System.out.println("Password : " + mhs.getPassword());
+
     }
-    }
+}
